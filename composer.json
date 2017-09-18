@@ -1,0 +1,13 @@
+{
+    "name": "kevinbatdorf/display-widgets",
+    "description": "WordPress plugin to selectively place widgets where you want.",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Batdorf",
+            "email": "kbat82@gmail.com"
+        }
+    ],
+    "require": {}
+}

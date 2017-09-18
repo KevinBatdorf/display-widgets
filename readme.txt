@@ -1,6 +1,6 @@
-=== Display Widgets ===
-Contributors: sswells
-Donate link: http://strategy11.com/donate/
+=== Where Widgets ===
+Contributors: kbatdorf
+Donate link: https://www.paypal.me/kevinbatdorf/
 Tags: widget, widgets, admin, show, hide, page, sidebar, content, wpmu, wordpress, plugin, post, posts, content, filter, widget logic, widget context
 Requires at least: 3.1
 Tested up to: 4.3
@@ -10,13 +10,12 @@ Simply hide widgets on specified pages. Adds checkboxes to each widget to either
 
 == Description ==
 
-Change your sidebar content for different pages, categories, custom taxonomies, and WPML languages. Avoid creating multiple sidebars and duplicating widgets by adding check boxes to each widget in the admin (as long as it is written in the WordPress version 2.8 format) which will either show or hide the widgets on every site page. Great for avoiding extra coding and keeping your sidebars clean. 
+Change your sidebar content for different pages, categories, custom taxonomies, and WPML languages. Avoid creating multiple sidebars and duplicating widgets by adding check boxes to each widget in the admin (as long as it is written in the WordPress version 2.8 format) which will either show or hide the widgets on every site page. Great for avoiding extra coding and keeping your sidebars clean.
 
-By default, 'Hide on checked pages' is selected with no boxes checked, so all current widgets will continue to display on all pages. 
+By default, 'Hide on checked pages' is selected with no boxes checked, so all current widgets will continue to display on all pages.
 
-You can also find a development version where you can add translations and bug fixes on ([GitHub](https://github.com/Strategy11/display-widgets "GitHub"))
+You can also find a development version where you can add translations and bug fixes on ([GitHub](https://github.com/KevinBatdorf/display-widgets "GitHub"))
 
-http://strategy11.com/display-widgets/
 
 = Translations =
 * Albanian ([Taulant](http://wporacle.com/ "Taulant"))
@@ -38,7 +37,7 @@ http://strategy11.com/display-widgets/
 
 == Installation ==
 
-1. Upload `display-widgets.php` to the `/wp-content/plugins/` directory
+1. Upload `where-widgets.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to the 'Widgets' menu and show the options panel for the widget you would like to hide.
 4. Select either 'Show on Checked' or 'Hide on Checked' from the drop-down and check the boxes.
@@ -135,7 +134,7 @@ function dw_callback_trigger(){
 
 = 1.18 =
 * Added custom taxonomy support
-* Show category options even if there are no posts in them 
+* Show category options even if there are no posts in them
 * Fixed expand and collapse bug in widget options
 
 = 1.17 =
@@ -153,7 +152,7 @@ function dw_callback_trigger(){
 = 1.14 =
 * Added Japanese translation ([BNG NET](http://staff.blog.bng.net/ "BNG NET"))
 
-= 1.13 = 
+= 1.13 =
 * Added a PO file for translators
 
 = 1.12 =
@@ -199,4 +198,3 @@ function dw_callback_trigger(){
 
 = 1.1 =
 * Fixed bug that prevented other widget options to be displayed
-
